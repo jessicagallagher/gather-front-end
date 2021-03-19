@@ -103,9 +103,9 @@ class Event extends Component {
             </div>
           </section>
         </div>
-		
+
 		<button onClick={ () => this.toggleEditForm() }>Edit Event</button>
-		
+
 		<div className={editForm ? 'edit-form' : null}>
 			<EditForm
             	event={ this.state }
